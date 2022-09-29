@@ -19,7 +19,7 @@ const Exercise = (props) => {
             </div>
             <h2 className='heading_break'>Exercise details</h2>
 
-            <p className='timeSectionP'><span className='exercise_time' >Exercise Time</span>{total}<span>seconds</span></p>
+            <p className='timeSectionP'><span className='exercise_time' >Exercise Time</span>{total} <span>seconds</span></p>
             <p className='timeSectionP'><span className='Break_time' >Break Time</span>0 <span>seconds</span></p>
             <button className='activity_btn'>
                 Activity Completed
