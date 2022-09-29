@@ -1,0 +1,17 @@
+.heading_break {
+    font-size: 25px;
+}
+
+.timebtn_div {
+    background-color: #F2F4FA;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+.timerbtn {
+    padding: 13px 6px;
+    border-radius: 100%;
+    margin-left: 15px;
+    border: none;
+    background-color: white;
+}

@@ -10,7 +10,7 @@ const Instrument = (props) => {
             <p>{info.slice(0, 80)}</p>
             <h2>{time}s</h2>
             <button className='btn'>
-                Add to list
+                <a href="#"> Add to list</a>
             </button>
         </div>
     );
