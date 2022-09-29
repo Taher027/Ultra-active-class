@@ -9,14 +9,6 @@
     margin-left: 15px;
 }
 
-.instrument img {
-    width: 100%;
-    height: 200px;
-    border-radius: 25px;
-    text-align: center;
-
-}
-
 .instrument {
     position: relative;
     width: 250px;
@@ -26,6 +18,15 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+.instrument img {
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+
 
 .instrument h2 {
     font-size: 24px;
@@ -51,4 +52,16 @@
 .instrument .btn a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width:1150px) {
+    .instrument {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .instrument {
+        width: 100%;
+    }
 }

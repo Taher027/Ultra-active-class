@@ -9,11 +9,11 @@
 }
 
 .right_info_section {
-    width: 30vw;
+    width: 35vw;
 }
 
 .home .instrument_section {
-    width: 70vw;
+    width: 65vw;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -24,23 +24,60 @@
         flex-direction: column-reverse;
     }
 
+    .right_info_section {
+        width: 100vw;
+    }
+
+    .instrument_section {
+        width: 100vw;
+    }
+
 }
 
 @media screen and (max-width: 1150px) {
     .home {
         flex-direction: column-reverse;
     }
+
+    .right_info_section {
+        width: 100vw;
+    }
+
+    .instrument_section {
+        width: 100vw;
+    }
+
+    .home {
+
+        margin: 0 auto;
+
+    }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1300px) {
     .home .instrument_section {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+    }
+
+    .home {
+        margin-left: 0px;
+
     }
 }
 
 @media screen and (max-width: 768px) {
     .home .instrument_section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home {
+        margin-left: 0px;
+
+    }
+
+    .instrument_section {
+        width: 100vw;
     }
 }
 

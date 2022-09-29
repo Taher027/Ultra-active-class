@@ -15,3 +15,17 @@
     border: none;
     background-color: white;
 }
+
+.timeSectionP {
+    background: #F2F4FA;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+
+.exercise_time {
+    margin-right: 40px;
+}
+
+.Break_time {
+    margin-right: 40px;
+}

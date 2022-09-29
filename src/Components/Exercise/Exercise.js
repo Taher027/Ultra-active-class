@@ -13,9 +13,10 @@ const Exercise = () => {
                 <button className='timerbtn'>50 <span>s</span></button>
             </div>
             <h2 className='heading_break'>Exercise details</h2>
-            <div className="exercise_time">
-                <p><span className='exercise_time' >Exercise Time</span>0 <span>seconds</span></p>
-            </div>
+
+            <p className='timeSectionP'><span className='exercise_time' >Exercise Time</span>0 <span>seconds</span></p>
+            <p className='timeSectionP'><span className='Break_time' >Break Time</span>0 <span>seconds</span></p>
+
         </div>
     );
 };
