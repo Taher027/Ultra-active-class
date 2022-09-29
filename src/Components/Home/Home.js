@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Instrument from '../../Instrument/Instrument';
 import Info from '../Info/Info';
-import './Home.css'
+import './Home.css';
+import img2 from '../../images/icon.png';
 
 const Home = () => {
 
@@ -25,7 +26,7 @@ const Home = () => {
             <div className='home-main'>
                 <div>
                     <div className='header_div'>
-                        <img src="" alt="" />
+                        <img className='headerImg' src={img2} alt="" />
                         <h2>Body-Fit_Club</h2>
                     </div>
                 </div>
