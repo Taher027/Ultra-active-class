@@ -29,3 +29,10 @@
 .Break_time {
     margin-right: 40px;
 }
+
+.activity_btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    background-color: blue;
+}

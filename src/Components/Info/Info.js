@@ -4,11 +4,12 @@ import './Info.css';
 
 import SelfInfo from './Selfinfo/SelfInfo';
 
-const Info = () => {
+const Info = (props) => {
+
     return (
         <div>
             <SelfInfo></SelfInfo>
-            <Exercise></Exercise>
+            <Exercise instrumentsTime={props.instrumentsTime}></Exercise>
 
 
         </div>

@@ -4,12 +4,21 @@ import Info from '../Info/Info';
 import './Home.css'
 
 const Home = () => {
+
     const [instruments, setInstrument] = useState([]);
+
+    const [instrumentsTime, setInstrumentTime] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setInstrument(data))
-    }, [])
+    }, []);
+
+    const handleAddToList = (instrument) => {
+        const newTime = [...instrumentsTime, instrument];
+        setInstrumentTime(newTime);
+    }
+
     return (
         <div className='home'>
 
@@ -25,6 +34,7 @@ const Home = () => {
                         instruments.map(instrument => <Instrument
                             key={instrument.id}
                             instrument={instrument}
+                            handleAddToList={handleAddToList}
 
                         ></Instrument>)
                     }
@@ -33,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className="right_info_section">
-                <Info></Info>
+                <Info instrumentsTime={instrumentsTime} ></Info>
             </div>
 
         </div>
