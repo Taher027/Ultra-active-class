@@ -1,0 +1,44 @@
+[
+    {
+        "name": "CHEST PRESS MACHINE",
+        "id": 11,
+        "info": "Using a chest press, you get specifically target and work out your chest, biceps, back, deltoids and shoulders. It's often hard to predict what will be used in your workout as the areas targeted can differ due to the model of the chest press and the angle you're sitting to use it. Most of the time, this machine causes an even workout across all of your upper body.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/cybex-vr2-chestpress-1-1.jpg",
+        "time": 30
+    },
+    {
+        "name": "SEATED DIP MACHINE",
+        "id": 22,
+        "info": "The seated dip machine allows you to enjoy all the benefits of normal bench dips but using a machine that will prevent you from losing your form and balance. You get to sit upright and use your triceps to push the weights down and back up again. It's a great dip station.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/03/hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+        "time": 20
+    },
+    {
+        "name": "CHEST FLY MACHINE",
+        "id": 33,
+        "info": "The chest fly strengthens your chest and torso to allow you to increase muscle mass. It's a great alternative to work your chest without having to load heavy weights onto a barbell.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/life-fitness-signature-pecfly-2-e1559941242112.jpg",
+        "time": 30
+    },
+    {
+        "name": "BENCH PRESS",
+        "id": 44,
+        "info": "The bench press is a popular type of gym equipment, especially for those just starting to get into weight lifting. Basically, you lay flat on a padded bench, use a barbell and do push ups. Above the bench is a barbell stand where the barbell will go. The bench press supports you and allows you to use dumbbells also.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/olympic-flat-bench-600x600.jpg",
+        "time": 20
+    },
+    {
+        "name": "INCLINE BENCH PRESS",
+        "id": 55,
+        "info": "The incline bench is exactly the same as the bench press; the only difference is it allows you to press at an incline.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/olympic-incline-bench-600x600.jpg",
+        "time": 30
+    },
+    {
+        "name": "DECLINE BENCH PRESS",
+        "id": 66,
+        "info": "This piece of gym equipment allows you to work out while lying down on a decline.",
+        "img": "https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/hammer-strength-olympic-decline-bench-600x600.jpg",
+        "time": 30
+    }
+]

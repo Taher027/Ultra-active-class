@@ -1,0 +1,50 @@
+.home-main {
+    margin-top: 100px;
+}
+
+.home {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.right_info_section {
+    width: 30vw;
+}
+
+.home .instrument_section {
+    width: 70vw;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .home {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .home .instrument_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home .instrument_section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.right_info_section {
+    background-color: white;
+    padding: 15px;
+}

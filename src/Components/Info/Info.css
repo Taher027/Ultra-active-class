@@ -1,0 +1,22 @@
+.info {
+    font-size: 25px;
+}
+
+.right_self_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #F2F4FA;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.right_self_info p {
+    font-size: 18px;
+    line-height: .8px;
+    margin-top: -3px;
+}
+
+.subinfo {
+    font-size: 16px;
+    font-weight: 500;
+}
