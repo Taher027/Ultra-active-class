@@ -1,10 +1,15 @@
 import React from 'react';
-import './Info.css'
+import './Info.css';
+import img1 from '../../images/taher (1).jpg'
 
 const Info = () => {
     return (
         <div className='info'>
-            <h2>Abu Taher Hossin</h2>
+
+            <div className='selfInf'>
+                <img className='info_img' src={img1} alt="" />
+                <h2 className='selfInf_heading'>Abu Taher Hossin</h2>
+            </div>
             <div className='right_self_info'>
                 <div>
                     <h2>75 <sub className='subinfo'>kg</sub></h2>
@@ -19,6 +24,8 @@ const Info = () => {
                     <p>age</p>
                 </div>
             </div>
+
+
         </div>
     );
 };
